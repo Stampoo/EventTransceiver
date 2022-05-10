@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "EventTransceiver",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v13), .macOS(.v10_15)],
     products: [
         .library(name: "EventTransceiver", targets: ["EventTransceiver"])
     ],
